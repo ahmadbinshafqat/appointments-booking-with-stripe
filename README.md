@@ -55,7 +55,7 @@ If you prefer to run the project manually using Python and pip:
 ### 1. Clone the Repository
 
 ```bash
-git clone <your-repo-url>
+git clone git@github.com:ahmadbinshafqat/appointments-booking-with-stripe.git
 cd appointments
 ```
 
@@ -125,5 +125,6 @@ More test cards available at [Stripe Testing Docs](https://stripe.com/docs/testi
 * Stripe Python SDK
 * python-dotenv
 * pytest (for testing)
+
 
 
