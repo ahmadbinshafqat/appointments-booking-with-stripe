@@ -1,0 +1,8 @@
+from django.urls import path
+from . import views
+
+urlpatterns = [
+    path("", views.create_appointment, name="create_appointment"),
+    path("success/", views.success, name="success"),
+    path("cancel/", views.cancel, name="cancel"),
+]
